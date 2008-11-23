@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InvoiceView_cb xmlns:mx="http://www.adobe.com/2006/mxml" xmlns="nl.diejongen.hours.*" xmlns:controls="nl.diejongen.hours.controls.*">
+	
+	<mx:CurrencyFormatter id="currencyFormatter" currencySymbol="$" precision="2" />
+	
+	
+	<mx:HBox width="100%" height="100%">
+		<mx:VBox width="200" height="100%">
+			<mx:Label text="Project" fontWeight="bold"/>
+			<mx:List id="projectSelector" dataProvider="{projectDataProvider}" width="100%" toolTip="List contains labels that match (partly and not case sensitive) the title string of your Google Calendar appointments."
+				allowMultipleSelection="true" change="onProjectSelectorChanged()"/>
+			<mx:HBox width="100%">
+				<mx:Button width="100%" label="Add" click="addClientSelectorHandler()" toolTip="Add label to list that matches (partly and not case sensitive) your Google Calendar appointments"/>
+				<mx:Button width="100%" label="Remove" click="removeClientSelectorHandler()" toolTip="Remove item from list"/>
+			</mx:HBox> 
+			<mx:HRule width="100%"/>
+			<mx:Label text="Select period" fontWeight="bold"/>
+			<mx:Form width="100%">
+				<mx:FormItem label="Start:" width="100%">
+					<mx:DateField id="startDate" change="updateView()" firstDayOfWeek="0" formatString="DD/MM/YYYY"
+						selectedDate="{new Date(new Date().fullYear, new Date().month - 1)}"/>
+				</mx:FormItem>
+				<mx:FormItem label="End:" width="100%">
+					<mx:DateField id="endDate" change="updateView()" firstDayOfWeek="0" formatString="DD/MM/YYYY" 
+						selectedDate="{new Date()}"/>
+				</mx:FormItem>
+				<mx:FormItem label="Month:" width="100%">
+					<mx:ComboBox id="monthSelector" change="onMonthSelectorChanged(event)">
+						<mx:Object label="No month" month="-1"/>
+						<mx:Object label="January" month="0"/>
+						<mx:Object label="February" month="1"/>
+						<mx:Object label="March" month="2"/>
+						<mx:Object label="April" month="3"/>
+						<mx:Object label="May" month="4"/>
+						<mx:Object label="June" month="5"/>
+						<mx:Object label="July" month="6"/>
+						<mx:Object label="August" month="7"/>
+						<mx:Object label="September" month="8"/>
+						<mx:Object label="October" month="9"/>
+						<mx:Object label="November" month="10"/>
+						<mx:Object label="December" month="11"/>
+					</mx:ComboBox>
+				</mx:FormItem>
+			</mx:Form>
+			<mx:HRule width="100%"/>
+			<mx:Label text="Rate" fontWeight="bold"/>
+			<mx:Form width="100%">
+				<mx:FormItem width="100%" label="VAT:" direction="horizontal">
+					<mx:TextInput id="vatInput" text="{vat}" width="50" change="onVatChanged()"/>
+				</mx:FormItem>
+				<mx:FormItem width="100%" label="Rate:" direction="horizontal">
+					<mx:TextInput id="rateInput" text="{rate}" width="50" change="onRateChanged()" />
+				</mx:FormItem>
+				<mx:FormItem width="100%" label="Currency:" >
+					<mx:ComboBox id="currencyCB" dataProvider="{currencyDP}" change="onCurrencyChanged()"/>
+				</mx:FormItem>
+			</mx:Form>
+			<mx:HRule width="100%"/>
+			<mx:Label text="Layout" fontWeight="bold"/>
+			<mx:FormItem width="100%" label="Week no offset:" direction="horizontal">
+				<mx:NumericStepper minimum="-2" maximum="2"  id="weekNoOffsetStepper" value="{weekNumberOffset}" change="onWeekNoOffsetChanged()" toolTip="Alter weeknumber if it doesn't match with your calendar."/>
+			</mx:FormItem>
+			<mx:FormItem width="100%" label="Date format:" direction="horizontal">
+				<mx:TextInput width="100%" id="dateFormatInput" text="{dateFormat}" change="{onDateFormatChanged()}" toolTip="The format of date strings"/>
+			</mx:FormItem>
+			<mx:Label text="Invoice headers string:"/>
+			<mx:TextInput width="100%" id="invoiceTableHeadersInput" change="onInvoiceTableHeadersChanged()" text="{invoiceTableHeaders}" toolTip="String used for headers hours table. Default format: 'week|su|mo|tu|we|th|fr|sa|total'" />
+			<mx:Button label="Reset to default" click="onResetToDefaultValuesProjects()"/>
+			<mx:Spacer height="100%"/>
+			<mx:HBox horizontalAlign="left" width="100%">
+				<controls:LinkLabel text="Go to settings" styleName="linkLabel" click="hoursRoot.flipToRss()" toolTip="Go to RSS settings view"/>
+				<mx:Spacer width="100%"/>
+				<mx:Button label="Refresh" click="hoursRoot.rssView.loadRssData()" toolTip="Refresh RSS data."/>
+			</mx:HBox>
+		</mx:VBox> 
+		<mx:VBox width="100%" height="100%">
+			<mx:TabNavigator id="tabNavigator" width="100%" height="100%" 
+				paddingBottom="10" paddingTop="10" paddingLeft="10" paddingRight="10" change="onInvoiceViewChanged()">
+				<mx:VBox label="HTML" width="100%" height="100%">
+					<mx:HBox width="100%" height="30">
+						<mx:ToggleButtonBar id="bb" itemClick="viewStack.selectedIndex = event.index" toolTipField="myTooltip">
+							<mx:Object label="Invoice" myTooltip="Show invoice layout"/>
+							<mx:Object label="Layout" myTooltip="Show HTML source"/>
+						</mx:ToggleButtonBar>
+						<mx:Spacer width="100%"/>
+						<mx:Button label="Default layout resolution" click="onResetToDefaultLayout()" toolTip="Reset layout to default settings for {resolutionCombo.selectedItem.label} resolution"/>
+						<mx:ComboBox id="resolutionCombo" dataProvider="{resolutionDP}" change="{onResolutionChanged()}" />
+						<mx:Button label="Print" click="onPrintInvoice()" toolTip="Print invoice"/>
+					</mx:HBox>
+					<mx:ViewStack id="viewStack" width="100%" height="100%">
+						<mx:Box backgroundColor="0xefefef" width="{tabNavigator.width}" height="{INVOICE_HEIGHT}" 
+								horizontalAlign="center" borderStyle="solid">
+							<mx:UIComponent id="htmlWrapper" width="{INVOICE_WIDTH}" height="{INVOICE_HEIGHT}" 
+								verticalCenter="true" />
+						</mx:Box>
+						<mx:Box label="Layout" width="100%" height="100%">
+							<mx:TextArea text="{invoiceLayout}" focusOut="updateLayoutString()" id="layout" width="100%" height="100%" fontFamily="Courier"/>
+						</mx:Box>
+					</mx:ViewStack>
+				</mx:VBox>
+				<mx:Box label="Text summary" width="100%" height="100%" toolTip="A text summary of the invoice data to be pasted into your document.">
+					<mx:TextArea text="{summaryText}" id="summaryTextArea" width="100%" height="100%" styleName="textSummary" />
+				</mx:Box>
+			</mx:TabNavigator>
+		</mx:VBox>
+	</mx:HBox>
+</InvoiceView_cb>
