@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<currentVersion version="v1.9 Beta" 
+	downloadLocation="http://www.diejongen.nl/hours/HOURS.air" 
+	forceUpdate="false" 
+	message="v1.8 Added Google data 'full' support instead using 'basic', no 'Month pattern' needed anymore v1.9 Fixed Bug with Google data event recurrance, application restores window position on startup, created auto check update on/off."/>

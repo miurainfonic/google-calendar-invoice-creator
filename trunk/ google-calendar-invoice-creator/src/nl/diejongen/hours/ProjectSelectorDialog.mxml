@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dialog xmlns:mx="http://www.adobe.com/2006/mxml" xmlns="nl.diejongen.common.controls.dialog.*" creationComplete="clientSelectorString.setFocus()">
+	<mx:Script>
+		<![CDATA[
+			[Bindable]
+			public var callBack:Function;
+			
+			private function addHandler() : void {
+				if(clientSelectorString.text != "") {
+					callBack.call(this, clientSelectorString.text);
+					closeDialog(new Event(Event.CLOSE));
+				}
+			}
+				
+		]]>
+	</mx:Script>
+	<mx:HBox width="100%">
+		<mx:Label text="project:"/><mx:Spacer width="100%"/>
+		<mx:TextInput id="clientSelectorString"/>
+	</mx:HBox>
+	<mx:HBox width="100%">
+		<mx:Label text="company name:"/><mx:Spacer width="100%"/>
+		<mx:TextInput id="companyName" />
+	</mx:HBox>
+	<mx:HBox width="100%">
+		<mx:Label text="contact:"/><mx:Spacer width="100%"/>
+		<mx:TextInput id="contact" />
+	</mx:HBox>
+	<mx:HBox width="100%">
+		<mx:Label text="address:"/><mx:Spacer width="100%"/>
+		<mx:TextInput id="address"/>
+	</mx:HBox>
+	<mx:HBox width="100%">
+		<mx:Label text="City and zip:"/><mx:Spacer width="100%"/>
+		<mx:TextInput id="cityZip"/>
+	</mx:HBox>
+	<mx:HBox width="100%" horizontalAlign="right">
+		<mx:Button label="Cancel" click="closeDialog(event)" />
+		<mx:Button label="Add" click="addHandler()"/>
+	</mx:HBox>
+</Dialog>

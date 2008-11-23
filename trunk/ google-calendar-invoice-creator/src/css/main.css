@@ -1,0 +1,27 @@
+@font-face {
+    src:url("/assets/font.swf");
+    fontFamily: "Arial";
+} 
+@font-face {
+    src:url("/assets/font.swf");
+    fontFamily: "Courier New";
+}
+
+Application {
+	background-gradient-colors: #ffffff, #cccccc;
+	color: #323232;
+	theme-color: #fad554;
+	text-selected-color: #323232;
+	text-roll-over-color: #323232; 
+}
+
+.textSummary {
+	font-family:"Courier New"; 
+	font-size:14;
+}
+
+.linkLabel {
+	font-family:"Arial";
+	font-size:12;
+	color:#6B4D03;
+}

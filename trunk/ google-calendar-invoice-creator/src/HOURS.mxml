@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" width="1024" height="768" 
+	title="Google Calendar Invoice Creator" borderColor="#000000" 
+	xmlns:hours="nl.diejongen.hours.*" applicationComplete="onApplicationComplete()" 
+	xmlns:version="nl.diejongen.common.version.*" xmlns:controls="nl.diejongen.hours.controls.*" >
+	
+	<mx:Style source="css/main.css"/>
+	
+	<mx:Script>
+		<![CDATA[
+			import nl.diejongen.common.data.PersistentData;
+			import mx.events.ResizeEvent;
+			import nl.diejongen.hours.data.PersistentConfigData;
+			import com.everythingflex.air.managers.ConnectionManager;
+			import nl.diejongen.hours.InvoiceView_cb;
+			import nl.diejongen.hours.model.DataModel;
+			[Bindable] public var model:DataModel = DataModel.getInstance();
+			
+			private var rssVisible:Boolean = true; 
+			[Bindable] private var persistantData:PersistentConfigData = PersistentConfigData.getInstance();
+			
+			[Bindable] private var connectionManager:ConnectionManager;
+			
+			public function onApplicationComplete():void {
+				connectionManager = new ConnectionManager();	
+				var autoCheckHasValue:Boolean = persistantData.hasValue(PersistentConfigData.AUTO_CHECK_UPDATE)
+				if(autoCheckForUpdate.selected || !autoCheckHasValue){
+					updateManager.checkForUpdate();
+				}
+				if(maximizable && persistantData.getValue(PersistentConfigData.MAXIMIZED) == NativeWindowDisplayState.MAXIMIZED)
+				{
+					this.maximize();
+				}
+				else if(persistantData.hasValue(PersistentConfigData.WINDOW_RECTANGLE))
+				{
+					var windowRect:Object = persistantData.getValue(PersistentConfigData.WINDOW_RECTANGLE) as Object;
+					var rect:Rectangle = new Rectangle(windowRect.x, windowRect.y, windowRect.width, windowRect.height);
+					
+					stage.nativeWindow.bounds = rect;
+					stage.nativeWindow.minimize();
+				}
+				stage.nativeWindow.addEventListener(NativeWindowBoundsEvent.RESIZING, onResizeWindow, false, 0, true);
+				stage.nativeWindow.addEventListener(NativeWindowDisplayStateEvent.DISPLAY_STATE_CHANGE, onDisplayStateWindow, false, 0, true);
+			}
+			
+			public function onResizeWindow(e:NativeWindowBoundsEvent):void {
+				var aftBounds:Rectangle = e.afterBounds;
+				persistantData.setValue(PersistentConfigData.WINDOW_RECTANGLE, aftBounds);
+			}
+			
+			public function onDisplayStateWindow(e:NativeWindowDisplayStateEvent):void {
+				var d:String = e.afterDisplayState;
+				persistantData.setValue(PersistentConfigData.MAXIMIZED, d)
+			}
+			
+			// switch to rss preferences view
+			public function flipToRss() : void { 
+				if(!rssVisible){ 
+					rssView.rssAddress.setFocus();
+					vStack.selectedChild = rssView;
+					rssVisible = true;
+				}
+			}
+			
+			// switch to rss invoice view
+			public function flipToInvoice() : void {
+				if(rssVisible){
+					vStack.selectedChild = invoiceView;
+					rssVisible = false
+				}
+			}
+		]]>
+	</mx:Script>
+	
+	<hours:GoogleCalendarRssParser id="rssParser" successLoading="{flipToInvoice()}" 
+		errorLoading="{flipToRss()}" /> 
+	
+	<mx:ViewStack id="vStack" width="100%" height="100%" creationPolicy="all">
+		<hours:RssView label="Rss" id="rssView" entries="{model.entries}" backgroundColor="0xcccccc"
+			rssParser="{rssParser}" width="100%" height="100%" hoursRoot="{this}" hideEffect="Dissolve" showEffect="Dissolve"
+			paddingBottom="10" paddingLeft="10" paddingRight="10" paddingTop="20"/> 
+		<hours:InvoiceView label="Invoice" id="invoiceView" entries="{model.entries}"  hideEffect="Dissolve" showEffect="Dissolve"
+			rssParser="{rssParser}" width="100%" height="100%" hoursRoot="{this}" backgroundColor="0xcccccc"
+			paddingBottom="10" paddingLeft="10" paddingRight="10" paddingTop="20"/>
+	</mx:ViewStack>
+	<mx:Text text="version: 1.9 Beta" top="0" right="5" fontSize="9"/>
+	<mx:HBox left="10" top="3" styleName="linkLabel" horizontalGap="-2">
+		<mx:CheckBox id="autoCheckForUpdate" label="auto check for" fontSize="11" height="11" 
+			selected="{persistantData.getValue(PersistentConfigData.AUTO_CHECK_UPDATE)}"
+			click="{persistantData.setValue(PersistentConfigData.AUTO_CHECK_UPDATE, autoCheckForUpdate.selected)}"/>
+		<controls:LinkLabel text="update Hours" enabled="{connectionManager.isConnected}" 
+			click="updateManager.checkForUpdate()" fontSize="11" underline="true"/>
+	</mx:HBox>
+	<version:HoursUpdateManager id="updateManager" url="http://www.diejongen.nl/hours/version.xml" />
+	
+</mx:WindowedApplication> 

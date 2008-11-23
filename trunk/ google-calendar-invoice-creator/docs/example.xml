@@ -1,0 +1,808 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/public/full -->
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/"
+	xmlns:batch="http://schemas.google.com/gdata/batch"
+	xmlns:gCal="http://schemas.google.com/gCal/2005" xmlns:gd="http://schemas.google.com/g/2005">
+	<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full</id>
+	<updated>2008-07-23T09:09:54.000Z</updated>
+	<category scheme="http://schemas.google.com/g/2005#kind"
+		term="http://schemas.google.com/g/2005#event"/>
+	<title type="text">Uren</title>
+	<subtitle type="text">Uren registratie</subtitle>
+	<link rel="alternate" type="text/html"
+		href="http://www.google.com/calendar/embed?src=be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+	<link rel="http://schemas.google.com/g/2005#feed" type="application/atom+xml"
+		href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full"/>
+	<link rel="http://schemas.google.com/g/2005#batch" type="application/atom+xml"
+		href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/batch"/>
+	<link rel="self" type="application/atom+xml"
+		href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full?max-results=25"/>
+	<link rel="next" type="application/atom+xml"
+		href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full?start-index=26&amp;max-results=25"/>
+	<author>
+		<name>Olivier de Jonge</name>
+		<email>olivier.dejonge@gmail.com</email>
+	</author>
+	<generator version="1.0" uri="http://www.google.com/calendar">Google Calendar</generator>
+	<openSearch:totalResults>325</openSearch:totalResults>
+	<openSearch:startIndex>1</openSearch:startIndex>
+	<openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+	<gd:where valueString="Nederland"/>
+	<gCal:timezone value="Europe/Amsterdam"/>
+	<gCal:timesCleaned value="0"/>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/5uf69ev7t1pero3aprk010q940</id>
+		<published>2008-06-17T15:19:22.000Z</published>
+		<updated>2008-06-19T09:21:25.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">Random AdidasFlame2 -1</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=NXVmNjlldjd0MXBlcm8zYXByazAxMHE5NDAgYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/5uf69ev7t1pero3aprk010q940"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/5uf69ev7t1pero3aprk010q940/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="5uf69ev7t1pero3aprk010q940@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-16T15:00:00.000+02:00" endTime="2008-06-16T18:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/6kb0fepr3ife00e0ji177dspsk</id>
+		<published>2008-06-17T15:20:09.000Z</published>
+		<updated>2008-06-19T09:21:18.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">Random AdidasFlame2 -1.5</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=NmtiMGZlcHIzaWZlMDBlMGppMTc3ZHNwc2sgYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/6kb0fepr3ife00e0ji177dspsk"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/6kb0fepr3ife00e0ji177dspsk/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="6kb0fepr3ife00e0ji177dspsk@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-17T11:00:00.000+02:00" endTime="2008-06-17T17:30:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/ij2mjdnu9ktml35dk5t60anato</id>
+		<published>2008-06-17T15:19:31.000Z</published>
+		<updated>2008-06-17T15:19:37.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">Random AdidasFlame2</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=aWoybWpkbnU5a3RtbDM1ZGs1dDYwYW5hdG8gYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/ij2mjdnu9ktml35dk5t60anato"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/ij2mjdnu9ktml35dk5t60anato/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="ij2mjdnu9ktml35dk5t60anato@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-16T21:00:00.000+02:00" endTime="2008-06-16T22:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/12koe0vgi3pjin4vlo9965bgsk</id>
+		<published>2008-06-13T08:03:21.000Z</published>
+		<updated>2008-06-13T15:08:06.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">RaboHyves</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=MTJrb2UwdmdpM3BqaW40dmxvOTk2NWJnc2sgYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/12koe0vgi3pjin4vlo9965bgsk"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/12koe0vgi3pjin4vlo9965bgsk/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="12koe0vgi3pjin4vlo9965bgsk@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-13T10:00:00.000+02:00" endTime="2008-06-13T17:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/09vocurjg8q8gb94nbfbjogdts</id>
+		<published>2008-06-12T13:52:42.000Z</published>
+		<updated>2008-06-12T13:52:42.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">RaboHyves -1</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=MDl2b2N1cmpnOHE4Z2I5NG5iZmJqb2dkdHMgYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/09vocurjg8q8gb94nbfbjogdts"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/09vocurjg8q8gb94nbfbjogdts/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="09vocurjg8q8gb94nbfbjogdts@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-12T09:30:00.000+02:00" endTime="2008-06-12T16:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/92moagvpadonounh6gfvpbl30k</id>
+		<published>2008-06-12T04:22:08.000Z</published>
+		<updated>2008-06-12T04:22:08.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">Random AdidasFlame</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=OTJtb2FndnBhZG9ub3VuaDZnZnZwYmwzMGsgYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/92moagvpadonounh6gfvpbl30k"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/92moagvpadonounh6gfvpbl30k/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="92moagvpadonounh6gfvpbl30k@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-11T21:00:00.000+02:00" endTime="2008-06-11T22:30:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/0vipcijc7fjhk5cvi1pb48lsdo</id>
+		<published>2008-06-12T04:21:48.000Z</published>
+		<updated>2008-06-12T04:21:48.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">Random AdidasFlame</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=MHZpcGNpamM3ZmpoazVjdmkxcGI0OGxzZG8gYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/0vipcijc7fjhk5cvi1pb48lsdo"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/0vipcijc7fjhk5cvi1pb48lsdo/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="0vipcijc7fjhk5cvi1pb48lsdo@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-11T07:00:00.000+02:00" endTime="2008-06-11T08:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/ror77b748883nlido62jg70vno</id>
+		<published>2008-06-11T08:51:27.000Z</published>
+		<updated>2008-06-11T08:51:27.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">RaboHyves</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=cm9yNzdiNzQ4ODgzbmxpZG82MmpnNzB2bm8gYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/ror77b748883nlido62jg70vno"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/ror77b748883nlido62jg70vno/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="ror77b748883nlido62jg70vno@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-11T10:30:00.000+02:00" endTime="2008-06-11T18:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/e4uf8p039d4dipr1g7c4002ubk</id>
+		<published>2008-06-10T22:19:25.000Z</published>
+		<updated>2008-06-10T22:19:46.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">Random Adidas</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=ZTR1ZjhwMDM5ZDRkaXByMWc3YzQwMDJ1YmsgYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/e4uf8p039d4dipr1g7c4002ubk"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/e4uf8p039d4dipr1g7c4002ubk/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="e4uf8p039d4dipr1g7c4002ubk@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-10T23:00:00.000+02:00" endTime="2008-06-11T00:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/06e54up539out7ksj7rciglh94</id>
+		<published>2008-06-10T22:19:09.000Z</published>
+		<updated>2008-06-10T22:19:09.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">RaboHyves</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=MDZlNTR1cDUzOW91dDdrc2o3cmNpZ2xoOTQgYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/06e54up539out7ksj7rciglh94"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/06e54up539out7ksj7rciglh94/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="06e54up539out7ksj7rciglh94@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-10T21:00:00.000+02:00" endTime="2008-06-10T23:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/6sgsddgilmplag6niu23ffh79c</id>
+		<published>2008-06-10T19:18:39.000Z</published>
+		<updated>2008-06-10T19:18:39.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">RaboHyves -1</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=NnNnc2RkZ2lsbXBsYWc2bml1MjNmZmg3OWMgYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/6sgsddgilmplag6niu23ffh79c"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/6sgsddgilmplag6niu23ffh79c/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="6sgsddgilmplag6niu23ffh79c@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-10T10:00:00.000+02:00" endTime="2008-06-10T18:30:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/vj8126jevd4fnq7kni1jui7kn8</id>
+		<published>2008-06-09T08:18:35.000Z</published>
+		<updated>2008-06-09T08:18:35.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">RaboHyves</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=dmo4MTI2amV2ZDRmbnE3a25pMWp1aTdrbjggYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/vj8126jevd4fnq7kni1jui7kn8"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/vj8126jevd4fnq7kni1jui7kn8/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="vj8126jevd4fnq7kni1jui7kn8@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-09T10:00:00.000+02:00" endTime="2008-06-09T18:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/rhkv0k9prjgdv47hvqjaih93i0</id>
+		<published>2008-06-06T13:58:10.000Z</published>
+		<updated>2008-06-06T13:58:10.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">RaboHyves -1</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=cmhrdjBrOXByamdkdjQ3aHZxamFpaDkzaTAgYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/rhkv0k9prjgdv47hvqjaih93i0"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/rhkv0k9prjgdv47hvqjaih93i0/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="rhkv0k9prjgdv47hvqjaih93i0@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-06T09:00:00.000+02:00" endTime="2008-06-06T16:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/l2l6vt6h1rhq8q6mg77r1vru48</id>
+		<published>2008-06-06T06:36:00.000Z</published>
+		<updated>2008-06-06T06:37:05.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">4D RaboHyves</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=bDJsNnZ0NmgxcmhxOHE2bWc3N3IxdnJ1NDggYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/l2l6vt6h1rhq8q6mg77r1vru48"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/l2l6vt6h1rhq8q6mg77r1vru48/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="l2l6vt6h1rhq8q6mg77r1vru48@google.com"/>
+		<gCal:sequence value="1"/>
+		<gd:when startTime="2008-06-06T06:00:00.000+02:00" endTime="2008-06-06T08:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/4cp3velfr51bqguc5g2598mk74</id>
+		<published>2008-05-30T14:05:57.000Z</published>
+		<updated>2008-06-06T06:36:22.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">EuroRSCG RaboHyves (Kickoff)</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=NGNwM3ZlbGZyNTFicWd1YzVnMjU5OG1rNzQgYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/4cp3velfr51bqguc5g2598mk74"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/4cp3velfr51bqguc5g2598mk74/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="4cp3velfr51bqguc5g2598mk74@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-03T12:00:00.000+02:00" endTime="2008-06-03T14:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where valueString="Burgermeester Colijnweg 2, Amsterdam"/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/0m15nluq2jc7oci6ahh084tnhk</id>
+		<published>2008-06-05T13:22:55.000Z</published>
+		<updated>2008-06-05T13:22:55.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">4D RaboHyves</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=MG0xNW5sdXEyamM3b2NpNmFoaDA4NHRuaGsgYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/0m15nluq2jc7oci6ahh084tnhk"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/0m15nluq2jc7oci6ahh084tnhk/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="0m15nluq2jc7oci6ahh084tnhk@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-05T15:00:00.000+02:00" endTime="2008-06-05T18:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/g1knd8gr6dkhg5b0926trkk1s8</id>
+		<published>2008-06-05T13:22:06.000Z</published>
+		<updated>2008-06-05T13:22:14.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">Random Adidas -.5</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=ZzFrbmQ4Z3I2ZGtoZzViMDkyNnRya2sxczggYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/g1knd8gr6dkhg5b0926trkk1s8"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/g1knd8gr6dkhg5b0926trkk1s8/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="g1knd8gr6dkhg5b0926trkk1s8@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-05T11:00:00.000+02:00" endTime="2008-06-05T15:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/94sol3ldnpcrlpoo9oo2nbku8o</id>
+		<published>2008-06-03T18:20:22.000Z</published>
+		<updated>2008-06-03T18:20:23.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">Random Adidas -.5</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=OTRzb2wzbGRucGNybHBvbzlvbzJuYmt1OG8gYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/94sol3ldnpcrlpoo9oo2nbku8o"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/94sol3ldnpcrlpoo9oo2nbku8o/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="94sol3ldnpcrlpoo9oo2nbku8o@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-03T15:00:00.000+02:00" endTime="2008-06-03T20:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/rfbfmjkbovjch7vr01dt1t9o94</id>
+		<published>2008-06-02T17:37:06.000Z</published>
+		<updated>2008-06-02T17:37:06.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">Random Adidas -1</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=cmZiZm1qa2JvdmpjaDd2cjAxZHQxdDlvOTQgYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/rfbfmjkbovjch7vr01dt1t9o94"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/rfbfmjkbovjch7vr01dt1t9o94/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="rfbfmjkbovjch7vr01dt1t9o94@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-06-02T10:00:00.000+02:00" endTime="2008-06-02T19:30:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/joufcd8tir0124gco2drt6urtg</id>
+		<published>2008-05-30T08:11:34.000Z</published>
+		<updated>2008-05-30T08:11:34.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">Random Adidas -1</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=am91ZmNkOHRpcjAxMjRnY28yZHJ0NnVydGcgYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/joufcd8tir0124gco2drt6urtg"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/joufcd8tir0124gco2drt6urtg/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="joufcd8tir0124gco2drt6urtg@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-05-30T10:00:00.000+02:00" endTime="2008-05-30T18:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/fhuh9mvl5gs21754nhakrkkr64</id>
+		<published>2008-05-30T07:29:36.000Z</published>
+		<updated>2008-05-30T07:29:45.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">Random Adidas -1.5</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=Zmh1aDltdmw1Z3MyMTc1NG5oYWtya2tyNjQgYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/fhuh9mvl5gs21754nhakrkkr64"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/fhuh9mvl5gs21754nhakrkkr64/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="fhuh9mvl5gs21754nhakrkkr64@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-05-29T12:00:00.000+02:00" endTime="2008-05-29T18:30:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/mf5ub41kehsnrnqdje9cjitdr0</id>
+		<published>2008-05-28T08:34:08.000Z</published>
+		<updated>2008-05-28T08:34:08.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">Random Adidas -1</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=bWY1dWI0MWtlaHNucm5xZGplOWNqaXRkcjAgYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/mf5ub41kehsnrnqdje9cjitdr0"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/mf5ub41kehsnrnqdje9cjitdr0/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="mf5ub41kehsnrnqdje9cjitdr0@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-05-28T10:30:00.000+02:00" endTime="2008-05-28T18:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/gqk969qim43vqelplh5ibuct5o</id>
+		<published>2008-05-28T04:47:48.000Z</published>
+		<updated>2008-05-28T04:47:48.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">Random Adidas</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=Z3FrOTY5cWltNDN2cWVscGxoNWlidWN0NW8gYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/gqk969qim43vqelplh5ibuct5o"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/gqk969qim43vqelplh5ibuct5o/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="gqk969qim43vqelplh5ibuct5o@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-05-27T09:00:00.000+02:00" endTime="2008-05-27T14:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/o6o10rk8ajs4i45f6m9l6rl3r0</id>
+		<published>2008-05-26T08:35:47.000Z</published>
+		<updated>2008-05-26T08:35:47.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">Random Adidas -1</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=bzZvMTByazhhanM0aTQ1ZjZtOWw2cmwzcjAgYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/o6o10rk8ajs4i45f6m9l6rl3r0"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/o6o10rk8ajs4i45f6m9l6rl3r0/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="o6o10rk8ajs4i45f6m9l6rl3r0@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-05-26T10:30:00.000+02:00" endTime="2008-05-26T18:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+	<entry>
+		<id>http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/liqobk396h3hbsalrc4dkn5s58</id>
+		<published>2008-05-25T20:19:36.000Z</published>
+		<updated>2008-05-25T20:19:56.000Z</updated>
+		<category scheme="http://schemas.google.com/g/2005#kind"
+			term="http://schemas.google.com/g/2005#event"/>
+		<title type="text">Random Adidas -1.5</title>
+		<content type="text"/>
+		<link rel="alternate" type="text/html"
+			href="http://www.google.com/calendar/event?eid=bGlxb2JrMzk2aDNoYnNhbHJjNGRrbjVzNTggYmU2MmEzNjFyY2MxMWVrNzN0djZwYWh0MGNAZw"
+			title="alternate"/>
+		<link rel="self" type="application/atom+xml"
+			href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/liqobk396h3hbsalrc4dkn5s58"/>
+		<author>
+			<name>Olivier de Jonge</name>
+			<email>olivier.dejonge@gmail.com</email>
+		</author>
+		<gd:comments>
+			<gd:feedLink
+				href="http://www.google.com/calendar/feeds/be62a361rcc11ek73tv6paht0c%40group.calendar.google.com/private-98f3a23c3c1d5f047a2c99990265897e/full/liqobk396h3hbsalrc4dkn5s58/comments"
+			/>
+		</gd:comments>
+		<gd:eventStatus value="http://schemas.google.com/g/2005#event.confirmed"/>
+		<gd:transparency value="http://schemas.google.com/g/2005#event.opaque"/>
+		<gCal:uid value="liqobk396h3hbsalrc4dkn5s58@google.com"/>
+		<gCal:sequence value="0"/>
+		<gd:when startTime="2008-05-25T10:00:00.000+02:00" endTime="2008-05-25T22:00:00.000+02:00"/>
+		<gd:who rel="http://schemas.google.com/g/2005#event.organizer" valueString="Uren"
+			email="be62a361rcc11ek73tv6paht0c@group.calendar.google.com"/>
+		<gd:where/>
+	</entry>
+</feed>

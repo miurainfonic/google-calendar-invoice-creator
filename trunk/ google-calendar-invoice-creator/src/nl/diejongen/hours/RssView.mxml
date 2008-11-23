@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RssView_cb xmlns:mx="http://www.adobe.com/2006/mxml" 
+	xmlns="nl.diejongen.hours.*" width="100%" height="100%" xmlns:controls="nl.diejongen.hours.controls.*">
+	<mx:Form width="100%" paddingBottom="0" paddingLeft="0" paddingRight="0" paddingTop="0">
+		<mx:FormItem width="100%" label="Calendar XML address">
+			<mx:TextInput id="rssAddress" focusOut="updateRssAddress()" width="100%" 
+				toolTip="The Calendar XML Address of your Google Calendar found in: settings->Calendars->[Your calendar]->Calendar Address->XML."/>
+		</mx:FormItem>
+		<mx:FormItem width="100%" label="Start index" direction="horizontal" >
+			<mx:TextInput id="startIndex" focusOut="updateStartEntry()" width="30" 
+				toolTip="The start position of the results."/>
+			<mx:Label text="Max results"/>
+			<mx:TextInput id="maxResults" focusOut="updateMaxResults()" width="30" 
+				toolTip="The max number of results from the service."/>
+			<mx:Label text="Break id:"/>
+			<mx:TextInput id="brakeIdentifier" focusOut="updateBreakIdentifier()" width="25" 
+				toolTip="The string pattern you use to identify your lunch break time E.g. '-' causes the String '-0.5' in your Calendar appointment substract half an hour by the application of the total appointment time."/>
+			<mx:Spacer width="100%"/>
+			<mx:Button label="Reset to default" click="{onResetToDefaultValues()}" toolTip="Reset fields to default settings"/>
+		</mx:FormItem>
+	</mx:Form>
+	<mx:DataGrid id="showHours" width="100%" height="100%" dataProvider="{entries}" >
+		<mx:columns>
+			<mx:DataGridColumn dataField="title" headerText="title"/>
+			<mx:DataGridColumn id="dateColumn" dataField="date" headerText="date"/>
+			<mx:DataGridColumn width="100" dataField="startTime" headerText="start"/>
+			<mx:DataGridColumn width="100" dataField="stopTime" headerText="end"/>
+			<mx:DataGridColumn id="totalTimeColumn" width="100" dataField="totalTime" headerText="total: {totalHours}"/>
+			<mx:DataGridColumn dataField="summary" headerText="summary"/>
+		</mx:columns>
+	</mx:DataGrid>
+	<mx:HBox width="100%" horizontalAlign="right">
+		<controls:LinkLabel styleName="linkLabel" text="Go to invoice" click="hoursRoot.flipToInvoice()" 
+			toolTip="Show invoice view"/>
+		<mx:Spacer width="100%"/>
+		<mx:Button label="Refresh" click="updateRSS();"/>
+	</mx:HBox>
+</RssView_cb>
