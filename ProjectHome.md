@@ -1,0 +1,3 @@
+Appointments in Google Calendar are used to keep track of your hours in several projects.
+
+The Google Calendar Invoice Creator also called _Hours_ reads an RSS feed from your Google Calendar in which every created appointment the number of hours worked for a project represents. Based on the title it filters the appointments, calculates the total of hours and creates your invoice in html or text version. Obviously you need a Google account to use this application.
